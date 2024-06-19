@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: Inter;
+    src: https://fonts.google.com/specimen/Inter
+}
+
+
+
+body {
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+    margin: 0%;
+    padding: 0%;
+}
+
+ 
+.full {
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.mainGrey {
+    
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: auto;
+    border-radius: 5%;
+    box-sizing: border-box;
+}
+
+img {
+    border-radius: 50%;
+    transform: scale(0.55);
+    margin: -5px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.description {
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.social li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px 100px 15px 100px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
